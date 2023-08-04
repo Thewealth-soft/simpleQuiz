@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(145, 97, 6);
+}
+
+.app{
+    background: rgb(237, 238, 237);
+    width: 100%;
+    height: 420px;
+    border-radius: 6px;
+    margin: 5% auto auto auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.header{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.question-box{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+.question-box h2{
+    margin-top: 10px;
+    margin-bottom:15px;
+}
+#options{
+    display: flex;
+    flex-direction: column;
+}
+
+#options .btn{
+    text-align: start;
+    height: 50px;
+    margin-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.correct-ans{
+    background-color: rgb(11, 200, 11);
+    border: 1px;
+}
+.wrong-ans{
+    background-color: rgb(232, 40, 40);
+    border: 1px;
+}
+.next{
+    background: green;
+    width: 100px;
+    height: 40px;
+margin: 10px 10px 0 10px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+
+.next:hover{
+    background: rgba(0, 128, 0, 0.629);
+}
+
+#quiz-length{
+    position: static;
+    margin: 8px;
+    text-align: center;
+}
